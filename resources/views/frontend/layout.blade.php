@@ -11,7 +11,7 @@
     <meta name="keywords" content="#">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Multi Tenant Laravel</title>
+    <title>Sabay Nham</title>
     <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('frontend/css/simple-line-icons.css') }}">
@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="{{ route('homepage') }}">Listing</a>
+                    <a class="navbar-brand" href="{{ route('homepage') }}">Sabay Nham</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-menu"></span>
                     </button>
@@ -62,18 +62,18 @@
     @yield('content')
 
     <footer class="main-block dark-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+    <div class="container wow fadeInUp" data-wow-duration="1s" style="visibility:visible; animation: duration 1s; animation-name: fadeInUp;">
+        <div class="row justify-content-between">
+            <div class="col-lg-3 col-sm-4 col-md-3">
                 <div class="copyright">
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    <p>Copyright &copy; 2018 Listing. All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                    <p>Here is our location </p>
+                    <p class="info">
+                        <i class="far fa-map-maker-alt" aria-hidden="true"></i>Royal University of Phnom Penh</p>
+                    <p>+85510237215</p>
+                    <p>sabaynham@gmail.com</p>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    <ul>
-                        <li><a href="#"><span class="ti-facebook"></span></a></li>
-                        <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
-                        <li><a href="#"><span class="ti-instagram"></span></a></li>
-                    </ul>
+                    
                 </div>
             </div>
         </div>
